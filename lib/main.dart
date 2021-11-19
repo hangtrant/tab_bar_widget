@@ -42,7 +42,7 @@ class MyStatelessWidget extends StatelessWidget {
           children: <Widget>[
             Center(
               child: Column(
-                children: [
+                children: const [
                   Image(image: AssetImage('images/clouds.png')),
                   Text(
                     "ここで雲です",
@@ -53,7 +53,7 @@ class MyStatelessWidget extends StatelessWidget {
             ),
             Center(
               child: Column(
-                children: [
+                children: const [
                   Image(image: AssetImage('images/rainny.png')),
                   Text(
                     "ここで雨です",
@@ -64,7 +64,7 @@ class MyStatelessWidget extends StatelessWidget {
             ),
             Center(
               child: Column(
-                children: [
+                children: const [
                   Image(image: AssetImage('images/sunny.png')),
                   Text(
                     "ここで晴れです",
